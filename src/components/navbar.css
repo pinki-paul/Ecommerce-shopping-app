@@ -1,0 +1,42 @@
+body {
+    /* background-color: #e2e9ee; */
+    background-color: #b3d4dba1;
+}
+
+html{
+    
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: #F4A896;
+    justify-content: flex-end;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+
+.links {
+    margin-right: 3.345rem;
+    display: flex;
+    align-items: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: #358597;
+    margin-left: 1.345rem;
+    font-size: 1.23rem;
+    font-weight: 600;
+   transition: all .4s ease-in-out;
+}
+
+.links a:hover {
+  color: #1f5561f1;
+}
+
+
+
